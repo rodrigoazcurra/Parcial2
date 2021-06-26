@@ -4,7 +4,6 @@ package ar.edu.unlar.paradigmas3.parcial.objeto.Pantalla;
 import ar.edu.unlar.paradigmas3.parcial.objeto.Aula;
 import java.util.ArrayList;
 
-
 public class PantallaAula extends javax.swing.JFrame {
 
    

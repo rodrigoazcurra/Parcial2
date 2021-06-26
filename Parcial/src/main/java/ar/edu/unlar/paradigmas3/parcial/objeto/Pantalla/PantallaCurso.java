@@ -8,8 +8,7 @@ public class PantallaCurso extends javax.swing.JFrame {
 
     Curso curso = new Curso();
     ArrayList <Curso> alCurso;
-    
-    
+        
     public PantallaCurso() {
         this.alCurso = new ArrayList<>();
         initComponents();

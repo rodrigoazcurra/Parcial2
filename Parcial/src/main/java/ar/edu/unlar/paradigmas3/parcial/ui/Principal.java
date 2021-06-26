@@ -1,15 +1,42 @@
 
 package ar.edu.unlar.paradigmas3.parcial.ui;
 
+import ar.edu.unlar.paradigmas3.parcial.objeto.Alumno;
+import ar.edu.unlar.paradigmas3.parcial.objeto.Aula;
+import ar.edu.unlar.paradigmas3.parcial.objeto.Curso;
 import ar.edu.unlar.paradigmas3.parcial.objeto.Pantalla.PantallaAlumno;
 import ar.edu.unlar.paradigmas3.parcial.objeto.Pantalla.PantallaAula;
 import ar.edu.unlar.paradigmas3.parcial.objeto.Pantalla.PantallaCurso;
 import ar.edu.unlar.paradigmas3.parcial.objeto.Pantalla.PantallaProfesor;
-
+import ar.edu.unlar.paradigmas3.parcial.objeto.Profesor;
+import java.util.ArrayList;
 
 public class Principal extends javax.swing.JFrame {
        
+    private ArrayList <Alumno> alumno;
+    private ArrayList <Profesor> profesor;
+    private ArrayList <Aula> aula;
+    private ArrayList <Curso> curso;
+    
+    private void cargarDatos(){
+        
+//        alumno = new ArrayList<Alumno>();
+//        alumno.add(new Alumno ("Matias Corzo","34567890","ELSI00"));
+//       
+//        profesor = new ArrayList <Profesor>();
+//        profesor.add(new Profesor("Hugo Castro","23456789","EX33"));
+//        
+//        aula = new ArrayList <Aula>();
+//        aula.add(new Aula("206","4"));
+//        
+//        curso = new ArrayList <Curso>();
+//        curso.add(new Curso("2021-06-25","Redes y Comunicaciones2"));
+        
+    }
+    
+    
     public Principal() {
+        cargarDatos();
         initComponents();
        
     }
@@ -36,7 +63,7 @@ public class Principal extends javax.swing.JFrame {
                 {null, null, null, null}
             },
             new String [] {
-                "Alumno", "Profesor", "Aula", "Curso"
+                "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
         jScrollPane1.setViewportView(jtable);

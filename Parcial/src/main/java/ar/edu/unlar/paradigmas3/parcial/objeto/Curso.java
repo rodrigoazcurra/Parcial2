@@ -13,6 +13,14 @@ public class Curso {
      ArrayList <Profesor> listProfesores;
      ArrayList <Alumno> listAlumnos;
      ArrayList <Aula> listAulas;
+
+    public Curso(String string, String redes_y_Comunicaciones2) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public Curso() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     public ArrayList<Profesor> getListProfesores() {
         return listProfesores;

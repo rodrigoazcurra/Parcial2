@@ -1,7 +1,6 @@
 
 package ar.edu.unlar.paradigmas3.parcial.objeto;
 
-
 public class Alumno extends Persona {
     
     String matricula;
@@ -9,7 +8,7 @@ public class Alumno extends Persona {
     public Alumno() {
 
     }
-        
+
     public String getMatricula() {
         return matricula;
     }

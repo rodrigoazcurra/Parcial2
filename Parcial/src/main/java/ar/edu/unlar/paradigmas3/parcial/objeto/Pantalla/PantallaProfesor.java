@@ -4,7 +4,6 @@ package ar.edu.unlar.paradigmas3.parcial.objeto.Pantalla;
 import ar.edu.unlar.paradigmas3.parcial.objeto.Profesor;
 import java.util.ArrayList;
 
-
 public class PantallaProfesor extends javax.swing.JFrame {
 
     Profesor profesor = new Profesor();

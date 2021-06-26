@@ -7,6 +7,14 @@ public class Aula {
     int numero;
     int modulo;
 
+    public Aula(String string, String string0) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public Aula() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public int getNumero() {
         return numero;
     }
