@@ -22,5 +22,13 @@ public class Aula {
     public void setModulo(int modulo) {
         this.modulo = modulo;
     }
-    
+
+    public void getModulo(String text) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void getNumero(String text) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+        
 }

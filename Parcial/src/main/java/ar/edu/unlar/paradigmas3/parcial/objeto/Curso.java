@@ -2,6 +2,7 @@
 package ar.edu.unlar.paradigmas3.parcial.objeto;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 
 
@@ -12,7 +13,7 @@ public class Curso {
      ArrayList <Profesor> listProfesores;
      ArrayList <Alumno> listAlumnos;
      ArrayList <Aula> listAulas;
-
+    
     public ArrayList<Profesor> getListProfesores() {
         return listProfesores;
     }
@@ -51,6 +52,14 @@ public class Curso {
 
     public void setFecha(Date fecha) {
         this.fecha = fecha;
+    }
+
+    public void getCatedra(String text) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void getFecha(Calendar calendar) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
      
 }
